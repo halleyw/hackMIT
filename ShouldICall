@@ -1,0 +1,13 @@
+//ShouldICall?
+
+import java.util.Random;
+
+public String shouldICall(){
+	Random randGen = new Random();
+	Double decider = randGen.nextDouble();
+	if(decider <= 0.05){
+		return "Go ahead! See what happens.";
+	}
+	return "No.";
+
+}
