@@ -1,0 +1,5 @@
+//add to the manifest in the AndroidManifest.xml
+
+<meta-data
+    android:name="com.google.android.maps.v2.API_KEY"
+    android:value="AIzaSyCVRYmk_x33cIxl-xEEEuUGhXLOZYsohig"/>
